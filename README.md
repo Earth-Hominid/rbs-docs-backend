@@ -46,8 +46,8 @@ yarn strapi generate middleware SetOwner new
 
 </code-block>
 
-```yarn
-`npm run strapi generate middleware SetOwner new
+```npm
+npm run strapi generate middleware SetOwner new
 ```
 
 > This function sets the current authenticated user as the owner of the entry that is being created or updated.
