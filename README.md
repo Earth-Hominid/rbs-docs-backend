@@ -40,21 +40,15 @@ When creating a new Article via `POST /api/articles` we must set the authenticat
 
 [Create a global middleware](/developer-docs/latest/development/backend-customization/middlewares.html) using the CLI or by directly creating a javascript file in `./src/middlewares/`.
 
-<code-group>
-
-<code-block title="YARN">
-```bash
+```yarn
 yarn strapi generate middleware SetOwner new
 ```
+
 </code-block>
 
-<code-block title="NPM">
-```BASH
-npm run strapi generate middleware SetOwner new
+```yarn
+`npm run strapi generate middleware SetOwner new
 ```
-</code-block>
-
-</code-group>
 
 > This function sets the current authenticated user as the owner of the entry that is being created or updated.
 
