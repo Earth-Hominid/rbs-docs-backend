@@ -97,21 +97,13 @@ module.exports = (config, { strapi }) => {
 
 [Create a global policy](/developer-docs/latest/development/backend-customization/policies.html) using the CLI or by directly creating a javascript file in `./src/policies/`.
 
-<code-group>
-
-<code-block title="YARN">
-```bash
+```yarn
 yarn strapi generate policy IsOwner new
 ```
-</code-block>
 
-<code-block title="NPM">
-```BASH
+```yarn
 npm run strapi generate policy IsOwner new
 ```
-</code-block>
-
-</code-group>
 
 This function protects routes and data from unauthorized users before the request reaches the controller.
 
